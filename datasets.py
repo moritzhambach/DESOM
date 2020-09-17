@@ -10,7 +10,7 @@ import numpy as np
 
 def load_mnist(flatten=True, validation=False):
     # Dataset, shuffled and split between train and test sets
-    from keras.datasets import mnist
+    from tensorflow.keras.datasets import mnist
     (x_train, y_train), (x_test, y_test) = mnist.load_data()
     # Divide by 255.
     x_train = x_train.astype('float32') / 255.
@@ -27,7 +27,7 @@ def load_mnist(flatten=True, validation=False):
 
 
 def load_fashion_mnist(flatten=True, validation=False):
-    from keras.datasets import fashion_mnist  # this requires keras>=2.0.9
+    from tensorflow.keras.datasets import fashion_mnist  # this requires keras>=2.0.9
     (x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()
     # Divide by 255.
     x_train = x_train.astype('float32') / 255.

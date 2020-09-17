@@ -1,0 +1,13 @@
+name: desom
+channels:
+  - default
+dependencies:
+  - tensorflow=2.0.0
+  - ipykernel=5.3.0
+  - pandas=1.0.5
+  - numpy
+  - matplotlib
+  - pydot
+  - graphviz
+  - pip:
+    - scikit-learn==0.21.0

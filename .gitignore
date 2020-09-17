@@ -257,5 +257,8 @@ TSWLatexianTemp*
 # neural network weights
 *.h5
 
+# logs
+*.csv
+
 # Mendeley collection data
 collection.Data

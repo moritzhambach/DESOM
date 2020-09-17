@@ -7,6 +7,9 @@ Clustering metrics functions
 
 import numpy as np
 from sklearn import metrics
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
 from sklearn.utils.linear_assignment_ import linear_assignment
 
 

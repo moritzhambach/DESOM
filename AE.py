@@ -6,8 +6,8 @@ Autoencoder helper function
 @version 2.0
 """
 
-from keras.models import Model
-from keras.layers import Input, Dense
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Dense
 
 
 def mlp_autoencoder(encoder_dims, act='relu', init='glorot_uniform'):

@@ -15,8 +15,8 @@ import matplotlib.pyplot as plt
 
 # Tensorflow/Keras
 import tensorflow as tf
-from keras.models import Model
-from keras.utils.vis_utils import plot_model
+from tensorflow.keras.models import Model
+from tensorflow.keras.utils import plot_model
 
 # Dataset helper function
 from datasets import load_data
